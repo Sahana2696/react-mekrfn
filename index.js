@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Count from './Count';
+import {CountContainer} from './CountContainer';
 import { StoreProvider, StoreContext } from './store'
 console.log(StoreContext);
 import './style.css';
@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div>
-      <Count />
+      <CountContainer />
     </div>
   );
 }
